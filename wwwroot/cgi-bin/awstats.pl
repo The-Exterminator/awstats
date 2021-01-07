@@ -10125,13 +10125,13 @@ sub HTMLTopBanner{
 			print "<select class=\"aws_formfield\" name=\"databasebreak\">\n";
 			print "<option"
 			  . ( $DatabaseBreak eq "month" ? " selected=\"selected\"" : "" )
-			  . " value=\"month\">Monthly</option>\n";
+			  . " value=\"month\">$Message[180]</option>\n";
 			print "<option"
 			  . ( $DatabaseBreak eq "day" ? " selected=\"selected\"" : "" )
-			  . " value=\"day\">Daily</option>\n";
+			  . " value=\"day\">$Message[181]</option>\n";
 			print "<option"
 			  . ( $DatabaseBreak eq "hour" ? " selected=\"selected\"" : "" )
-			  . " value=\"hour\">Hourly</option>\n";
+			  . " value=\"hour\">$Message[182]</option>\n";
 			print "</select>\n";
 
 			print "<select class=\"aws_formfield\" name=\"month\">\n";
